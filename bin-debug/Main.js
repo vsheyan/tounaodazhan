@@ -230,6 +230,7 @@ var Main = (function (_super) {
         var result = new egret.Bitmap();
         var texture = RES.getRes(name);
         result.texture = texture;
+        result.scale9Grid = RES.getRes(name);
         return result;
     };
     /**

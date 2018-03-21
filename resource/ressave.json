@@ -3,7 +3,7 @@
 	"cleanPublishPath":false,
 	"packGroups":[{
 			"gap":1,
-			"name":"bggroup",
+			"name":"bgground",
 			"res":[
 				{
 					"compress":true,
@@ -20,9 +20,9 @@
 			],
 			"sort":0
 		}],
-	"publishCopyAll":false,
-	"publishPath":"N:/gameEgret/egretBeat/BrainBattle/resource_Publish/",
-	"sourcePath":"N:/gameEgret/egretBeat/BrainBattle/resource/",
+	"publishCopyAll":true,
+	"publishPath":"F:/wxAppForZW/BrainBattle/resource/",
+	"sourcePath":"F:/wxAppForZW/BrainBattle/resource11/",
 	"unPackGroup":[
 		{
 			"compress":false,
