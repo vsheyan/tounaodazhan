@@ -1,0 +1,23 @@
+{
+    "global": {
+        "globalAutoLayerMarkEnable": false,
+        "gridColor": 8421504,
+        "gridEnabled": false,
+        "gridSize": 20
+    },
+    "1624d1ab42b": {
+        "guideLinesEnabled": true,
+        "backgroundX": 0,
+        "backgroundY": 0,
+        "backgroundWidth": -1,
+        "backgroundHeight": -1,
+        "useBgImage": true,
+        "useBgColor": true,
+        "backgroundAlpha": 100
+    },
+    "1624d60a23c": {
+        "path": "gameui\\GameMain.ts",
+        "class": "GameMain",
+        "parentPath": ""
+    }
+}

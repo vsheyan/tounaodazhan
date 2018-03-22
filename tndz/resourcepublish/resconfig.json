@@ -100,12 +100,68 @@
 				{
 					"compress":false,
 					"key":"egret_icon_png"
+				},
+				{
+					"compress":true,
+					"key":"19_png"
+				},
+				{
+					"compress":true,
+					"key":"58_png"
+				},
+				{
+					"compress":false,
+					"key":"151_png"
+				},
+				{
+					"compress":false,
+					"key":"152_png"
+				},
+				{
+					"compress":false,
+					"key":"153_png"
+				},
+				{
+					"compress":false,
+					"key":"154_png"
+				},
+				{
+					"compress":false,
+					"key":"200_png"
+				},
+				{
+					"compress":false,
+					"key":"26_png"
+				},
+				{
+					"compress":false,
+					"key":"46_png"
+				},
+				{
+					"compress":false,
+					"key":"47_png"
+				},
+				{
+					"compress":false,
+					"key":"52_png"
+				},
+				{
+					"compress":false,
+					"key":"67_png"
+				},
+				{
+					"compress":false,
+					"key":"68_png"
+				},
+				{
+					"compress":false,
+					"key":"130_png"
 				}
 			],
 			"sort":0
 		}],
 	"publishCopyAll":true,
-	"publishPath":"N:/tndz/tndz/resource_Publish/",
+	"publishPath":"N:/tndz/tndz/resourcepublish/",
 	"sourcePath":"N:/tndz/tndz/resource/",
 	"unPackGroup":[{
 			"compress":false,

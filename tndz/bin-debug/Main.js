@@ -166,23 +166,37 @@ var Main = (function (_super) {
      * Create scene interface
      */
     Main.prototype.createGameScene = function () {
-        var sky = this.createBitmapByName("bg_jpg");
+        /*let sky = this.createBitmapByName("bg_jpg");
         this.addChild(sky);
-        var stageW = this.stage.stageWidth;
-        var stageH = this.stage.stageHeight;
+        let stageW = this.stage.stageWidth;
+        let stageH = this.stage.stageHeight;
         sky.width = stageW;
         sky.height = stageH;
-        var topMask = new egret.Shape();
+
+        let topMask = new egret.Shape();
         topMask.graphics.beginFill(0x000000, 0.5);
         topMask.graphics.drawRect(0, 0, stageW, 172);
         topMask.graphics.endFill();
         topMask.y = 33;
         this.addChild(topMask);
-        var icon = this.createBitmapByName("egret_icon_png");
+
+        let icon: egret.Bitmap = this.createBitmapByName("egret_icon_png");
         this.addChild(icon);
         icon.x = 26;
         icon.y = 33;
-        var line = new egret.Shape();
+
+        let icon2:egret.Bitmap = new egret.Bitmap();
+       
+        icon2.texture = RES.getRes("19_png");
+        var rect:egret.Rectangle = new egret.Rectangle(16,15,6,7);
+        icon2.scale9Grid =rect;
+        icon2.x = 126;
+        icon2.y = 233;
+        icon2.height = icon2.width = 200;
+        this.addChild(icon2);
+
+
+        let line = new egret.Shape();
         line.graphics.lineStyle(2, 0xffffff);
         line.graphics.moveTo(0, 0);
         line.graphics.lineTo(0, 117);
@@ -190,7 +204,9 @@ var Main = (function (_super) {
         line.x = 172;
         line.y = 61;
         this.addChild(line);
-        var colorLabel = new egret.TextField();
+
+
+        let colorLabel = new egret.TextField();
         colorLabel.textColor = 0xffffff;
         colorLabel.width = stageW - 172;
         colorLabel.textAlign = "center";
@@ -199,7 +215,8 @@ var Main = (function (_super) {
         colorLabel.x = 172;
         colorLabel.y = 80;
         this.addChild(colorLabel);
-        var textfield = new egret.TextField();
+
+        let textfield = new egret.TextField();
         this.addChild(textfield);
         textfield.alpha = 0;
         textfield.width = stageW - 172;
@@ -209,12 +226,14 @@ var Main = (function (_super) {
         textfield.x = 172;
         textfield.y = 135;
         this.textfield = textfield;
-        var button = new eui.Button();
+
+        let button = new eui.Button();
         button.label = "Click!";
         button.horizontalCenter = 0;
         button.verticalCenter = 0;
-        this.addChild(button);
-        button.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onButtonClick, this);
+        this.addChild(button);*/
+        this.addChild(new GameMain());
+        //button.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onButtonClick, this);
     };
     /**
      * 根据name关键字创建一个Bitmap对象。name属性请参考resources/resource.json配置文件的内容。

@@ -100,7 +100,7 @@ class Main extends eui.UILayer {
      * Create scene interface
      */
     protected createGameScene(): void {
-        let sky = this.createBitmapByName("bg_jpg");
+        /*let sky = this.createBitmapByName("bg_jpg");
         this.addChild(sky);
         let stageW = this.stage.stageWidth;
         let stageH = this.stage.stageHeight;
@@ -118,6 +118,17 @@ class Main extends eui.UILayer {
         this.addChild(icon);
         icon.x = 26;
         icon.y = 33;
+
+        let icon2:egret.Bitmap = new egret.Bitmap();
+       
+        icon2.texture = RES.getRes("19_png");
+        var rect:egret.Rectangle = new egret.Rectangle(16,15,6,7);
+        icon2.scale9Grid =rect;
+        icon2.x = 126;
+        icon2.y = 233;
+        icon2.height = icon2.width = 200;
+        this.addChild(icon2);
+
 
         let line = new egret.Shape();
         line.graphics.lineStyle(2, 0xffffff);
@@ -154,8 +165,11 @@ class Main extends eui.UILayer {
         button.label = "Click!";
         button.horizontalCenter = 0;
         button.verticalCenter = 0;
-        this.addChild(button);
-        button.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onButtonClick, this);
+        this.addChild(button);*/
+
+        this.addChild(new GameMain());
+        
+        //button.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onButtonClick, this);
     }
     /**
      * 根据name关键字创建一个Bitmap对象。name属性请参考resources/resource.json配置文件的内容。
