@@ -105,12 +105,15 @@ var Main = (function (_super) {
                     case 1:
                         _a.sent();
                         this.createGameScene();
-                        return [4 /*yield*/, RES.getResAsync("description_json")];
+                        return [4 /*yield*/, RES.getResAsync("description_json")
+                            //this.startAnimation(result);
+                        ];
                     case 2:
                         result = _a.sent();
-                        this.startAnimation(result);
+                        //this.startAnimation(result);
                         return [4 /*yield*/, platform.login()];
                     case 3:
+                        //this.startAnimation(result);
                         _a.sent();
                         return [4 /*yield*/, platform.getUserInfo()];
                     case 4:
@@ -166,7 +169,14 @@ var Main = (function (_super) {
      * Create scene interface
      */
     Main.prototype.createGameScene = function () {
-        /*let sky = this.createBitmapByName("bg_jpg");
+        this.addChild(new GameMain());
+    };
+    /**
+     * 创建场景界面
+     * Create scene interface
+     */
+    /*protected createGameScene(): void {
+        let sky = this.createBitmapByName("bg_jpg");
         this.addChild(sky);
         let stageW = this.stage.stageWidth;
         let stageH = this.stage.stageHeight;
@@ -231,10 +241,10 @@ var Main = (function (_super) {
         button.label = "Click!";
         button.horizontalCenter = 0;
         button.verticalCenter = 0;
-        this.addChild(button);*/
-        this.addChild(new GameMain());
-        //button.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onButtonClick, this);
-    };
+        this.addChild(button);
+
+        button.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onButtonClick, this);
+    }*/
     /**
      * 根据name关键字创建一个Bitmap对象。name属性请参考resources/resource.json配置文件的内容。
      * Create a Bitmap object according to name keyword.As for the property of name please refer to the configuration file of resources/resource.json.

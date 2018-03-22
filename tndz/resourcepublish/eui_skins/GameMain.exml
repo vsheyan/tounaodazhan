@@ -1,80 +1,79 @@
 <?xml version='1.0' encoding='utf-8'?>
 <e:Skin class="GameMainSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	
-	<e:Group id="header" width="640" height="204" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-458" x="0">
-	<e:Image id="headrbg" source="19_png" scale9Grid="16,15,6,7" anchorOffsetX="0" width="640" anchorOffsetY="0" height="202" x="0" y="0"/>
-	<e:Image id="userhead" width="100" height="104" x="29.5" y="49" anchorOffsetX="0" anchorOffsetY="0"/>
-		<e:layout>
-			<e:BasicLayout/>
-		</e:layout>
-	</e:Group>
-	<e:Group width="640" height="927" anchorOffsetX="0" anchorOffsetY="0" y="209" x="0">
-		<e:Button id="btn_rankbattle" label="" x="28.5" y="48" scaleX="1" scaleY="1" width="75">
-			<e:skinName>
+	<e:Group percentHeight="100%" percentWidth="100%">
+		<e:Group id="header" percentWidth="100%" percentHeight="15%" >
+			<e:Image id="headrbg" source="19_png" percentWidth="100%" scale9Grid="16,15,6,7" height="100%"/>
+			<e:Image id="userhead" verticalCenter="0" source="200_png" left="20"/>
+		</e:Group>
+		
+			<e:Group id="btn_container" scaleX="1" scaleY="1" width="156" verticalCenter="0" horizontalCenter="0">
+			<e:Button id="btn_rankbattle" horizontalCenter="-40.5" verticalCenter="-123" x="-274" y="-46" scaleX="1" scaleY="1">
+				<e:skinName>
 				<e:Skin states="up,down,disabled">
-				<e:Image width="100%" height="100%" source="153_png" source.down="153_png"/>
-				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image source="153_png" source.down="153_png"/>
+					<e:Label id="labelDisplay"/>
 				</e:Skin>
-			</e:skinName>
-		</e:Button>
-		<e:Button id="btn_ranklist" label="" x="145" y="48" scaleX="1" scaleY="1" width="75" height="76">
-			<e:skinName>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_ranklist" horizontalCenter="40.5" verticalCenter="-123" x="-274" y="-46" scaleX="1" scaleY="1">
+				<e:skinName>
 				<e:Skin states="up,down,disabled">
-				<e:Image width="100%" height="100%" source="154_png" source.down="154_png"/>
-				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image source="154_png" source.down="154_png"/>
+					<e:Label id="labelDisplay"/>
 				</e:Skin>
-			</e:skinName>
-		</e:Button>
-		<e:Button id="btn_friend" label="" x="27" y="124" scaleX="1" scaleY="1" width="75">
-			<e:skinName>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_friend" horizontalCenter="-40.5" verticalCenter="-41" x="-274" y="-46" scaleX="1" scaleY="1">
+				<e:skinName>
 				<e:Skin states="up,down,disabled">
-				<e:Image width="100%" height="100%" source="152_png" source.down="152_png"/>
-				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image source="152_png" source.down="152_png"/>
+					<e:Label id="labelDisplay"/>
 				</e:Skin>
-			</e:skinName>
-		</e:Button>
-		<e:Button id="btn_goldfactory" label="" x="149" y="127" scaleX="1" scaleY="1" width="75">
-			<e:skinName>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_goldfactory" horizontalCenter="40.5" verticalCenter="-41" x="-274" y="-46" scaleX="1" scaleY="1">
+				<e:skinName>
 				<e:Skin states="up,down,disabled">
-				<e:Image width="100%" height="100%" source="130_png" source.down="130_png"/>
-				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image source="130_png" source.down="130_png"/>
+					<e:Label id="labelDisplay"/>
 				</e:Skin>
-			</e:skinName>
-		</e:Button>
-		<e:Button id="btn_store" label="" x="28" y="222" scaleX="1" scaleY="1">
-			<e:skinName>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_store" horizontalCenter="-40.5" verticalCenter="41" x="-274" y="-46" scaleX="1" scaleY="1">
+				<e:skinName>
 				<e:Skin states="up,down,disabled">
-				<e:Image width="100%" height="100%" source="151_png" source.down="151_png"/>
-				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image source="151_png" source.down="151_png"/>
+					<e:Label id="labelDisplay"/>
 				</e:Skin>
-			</e:skinName>
-		</e:Button>
-		<e:Button id="btn_task" label="" x="149" y="222" scaleX="1" scaleY="1" width="75">
-			<e:skinName>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_task" horizontalCenter="40.5" verticalCenter="41" x="-274" y="-46" scaleX="1" scaleY="1">
+				<e:skinName>
 				<e:Skin states="up,down,disabled">
-				<e:Image width="100%" height="100%" source="152_png" source.down="153_png"/>
-				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image source="152_png" source.down="153_png"/>
+					<e:Label id="labelDisplay"/>
 				</e:Skin>
-			</e:skinName>
-		</e:Button>
-		<e:Button id="btn_bag" label="" x="129" y="250" width="75" height="76">
-			<e:skinName>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_bag" horizontalCenter="-40.5" verticalCenter="123" x="-274" y="-46" scaleX="1" scaleY="1">
+				<e:skinName>
 				<e:Skin states="up,down,disabled">
-				<e:Image width="100%" height="100%" source="130_png"/>
-				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image source="130_png"/>
+					<e:Label id="labelDisplay"/>
 				</e:Skin>
-			</e:skinName>
-		</e:Button>
-		<e:Button id="btn_bookshelves" label="" x="300" y="234" scaleX="1" scaleY="1" width="75" height="76">
-			<e:skinName>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_bookshelves" horizontalCenter="40.5" verticalCenter="123" x="-274" y="-46" scaleX="1" scaleY="1">
+				<e:skinName>
 				<e:Skin states="up,down,disabled">
-				<e:Image width="100%" height="100%" source="130_png"/>
-				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image source="130_png"/>
+					<e:Label id="labelDisplay"/>
 				</e:Skin>
-			</e:skinName>
-		</e:Button>
-		<e:layout>
-			<e:TileLayout horizontalAlign="left" verticalAlign="top" rowAlign="justifyUsingGap" columnAlign="justifyUsingGap" requestedRowCount="5" horizontalGap="-13" requestedColumnCount="2"/>
-		</e:layout>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+		
+
+
 	</e:Group>
 </e:Skin>
