@@ -1,6 +1,6 @@
 {
 	"groups":[{
-			"keys":"checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,description_json,19_png,58_png,151_png,152_png,153_png,154_png,200_png,26_png,46_png,47_png,52_png,67_png,68_png,130_png",
+			"keys":"checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,description_json,19_png,58_png,151_png,152_png,153_png,154_png,200_png,26_png,46_png,47_png,52_png,67_png,68_png,130_png,20_png",
 			"name":"preload"
 		}],
 	"resources":[
@@ -195,6 +195,12 @@
 			"name":"130_png",
 			"type":"image",
 			"url":"assets/mytest/130.png"
+		},
+		{
+			"name":"20_png",
+			"scale9grid":"17,16,9,6",
+			"type":"image",
+			"url":"assets/mytest/20.png"
 		}
 	]
 }

@@ -98,11 +98,11 @@
 					"key":"track_sb_png"
 				},
 				{
-					"compress":false,
+					"compress":true,
 					"key":"19_png"
 				},
 				{
-					"compress":false,
+					"compress":true,
 					"key":"58_png"
 				},
 				{
@@ -152,12 +152,16 @@
 				{
 					"compress":false,
 					"key":"130_png"
+				},
+				{
+					"compress":true,
+					"key":"20_png"
 				}
 			],
 			"sort":0
 		}],
 	"publishCopyAll":true,
-	"publishPath":"N:/mygame/tndz/resourcepublish/",
-	"sourcePath":"N:/mygame/tndz/resource/",
+	"publishPath":"F:/wxAppForZW/BrainBattle/tndz/resourcepublish/",
+	"sourcePath":"F:/wxAppForZW/BrainBattle/tndz/resource/",
 	"unPackGroup":[]
 }

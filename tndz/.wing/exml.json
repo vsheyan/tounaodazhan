@@ -19,5 +19,15 @@
         "path": "gameui\\GameMain.ts",
         "class": "GameMain",
         "parentPath": ""
+    },
+    "16253818007": {
+        "path": "..\\resource\\eui_skins\\BattlePanel.ts",
+        "class": "BattlePanel",
+        "parentPath": ""
+    },
+    "1625382843e": {
+        "path": "..\\resource\\eui_skins\\BattleView.ts",
+        "class": "BattleView",
+        "parentPath": ""
     }
 }

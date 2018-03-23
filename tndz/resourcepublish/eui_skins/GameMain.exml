@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <e:Skin class="GameMainSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Group percentHeight="100%" percentWidth="100%">
-		<e:Group id="header" percentWidth="100%" percentHeight="15%" >
-			<e:Image id="headrbg" source="19_png" percentWidth="100%" scale9Grid="16,15,6,7" height="100%"/>
+	<e:Image percentWidth="100%" percentHeight="100%" source="20_png" scale9Grid="16,15,9,7" width="100%" height="100%"/>
+	<e:Group percentHeight="100%" percentWidth="100%" x="0" width="100%" height="100%">
+		<e:Group id="header" percentWidth="100%" percentHeight="15%"  width="100%">
+			<e:Image id="headrbg" percentWidth="100%" percentHeight="100%" scale9Grid="16,15,6,7" source="19_png" y="0" width="100%" height="100%"/>
 			<e:Image id="userhead" verticalCenter="0" source="200_png" left="20"/>
-			<e:Group width="189" height="34" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" right="-16" verticalCenter="-4.5">
+			<e:Group width="189" height="34" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" right="20" verticalCenter="0">
 				<e:Image width="20" height="20" x="570" y="366" scaleX="1" scaleY="1" source="47_png"/>
 				<e:Label text="111" x="360" y="227" scaleX="1" scaleY="1" size="21" borderColor="0x000000" textColor="0x22b4f9"/>
 				<e:Image width="20" height="20" x="434" y="281" scaleX="1" scaleY="1" source="26_png"/>
@@ -15,7 +16,7 @@
 			</e:Group>
 		</e:Group>
 		
-			<e:Group id="btn_container" scaleX="1" scaleY="1" width="156" verticalCenter="0" horizontalCenter="0">
+			<e:Group id="btn_container" scaleX="1" scaleY="1" percentWidth="100%" percentHeight="100%" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" width="100%" height="100%">
 			<e:Button id="btn_rankbattle" horizontalCenter="-40.5" verticalCenter="-123" x="-274" y="-46" scaleX="1" scaleY="1">
 				<e:skinName>
 				<e:Skin states="up,down,disabled">
@@ -32,6 +33,8 @@
 				</e:Skin>
 				</e:skinName>
 			</e:Button>
+				<e:Label text="挑战赛" y="213" scaleX="1" scaleY="1" size="30" width="150" textAlign="center" horizontalCenter="0"/>
+				<e:Label text="排行榜" y="331" scaleX="1" scaleY="1" size="30" width="150" textAlign="center" horizontalCenter="0"/>
 			<e:Button id="btn_friend" horizontalCenter="-40.5" verticalCenter="-41" x="-274" y="-46" scaleX="1" scaleY="1">
 				<e:skinName>
 				<e:Skin states="up,down,disabled">
@@ -48,6 +51,8 @@
 				</e:Skin>
 				</e:skinName>
 			</e:Button>
+				<e:Label text="好友对战" y="407" scaleX="1" scaleY="1" size="30" width="150" textAlign="center" horizontalCenter="0"/>
+				<e:Label text="金币工厂" y="408" scaleX="1" scaleY="1" size="30" width="150" textAlign="center" horizontalCenter="0"/>
 			<e:Button id="btn_store" horizontalCenter="-40.5" verticalCenter="41" x="-274" y="-46" scaleX="1" scaleY="1">
 				<e:skinName>
 				<e:Skin states="up,down,disabled">
@@ -64,6 +69,8 @@
 				</e:Skin>
 				</e:skinName>
 			</e:Button>
+				<e:Label text="商店" y="340" scaleX="1" scaleY="1" size="30" width="150" textAlign="center" horizontalCenter="0"/>
+				<e:Label text="每日任务" y="273" scaleX="1" scaleY="1" size="30" width="150" textAlign="center" horizontalCenter="0"/>
 			<e:Button id="btn_bag" horizontalCenter="-40.5" verticalCenter="123" x="-274" y="-46" scaleX="1" scaleY="1">
 				<e:skinName>
 				<e:Skin states="up,down,disabled">
@@ -80,7 +87,15 @@
 				</e:Skin>
 				</e:skinName>
 			</e:Button>
+				<e:Label text="我的背包" y="566" scaleX="1" scaleY="1" size="30" width="150" textAlign="center" horizontalCenter="0"/>
+				<e:Label text="书架" y="516" scaleX="1" scaleY="1" size="30" width="150" textAlign="center" horizontalCenter="0"/>
+				<e:layout>
+					<e:TileLayout requestedColumnCount="2" horizontalGap="10" rowAlign="justifyUsingHeight" columnAlign="justifyUsingWidth" horizontalAlign="center" verticalAlign="justify" verticalGap="0" orientation="rows"/>
+				</e:layout>
 			</e:Group>
+		<e:layout>
+			<e:VerticalLayout/>
+		</e:layout>
 		
 
 

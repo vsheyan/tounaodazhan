@@ -13,16 +13,20 @@
 		"eui.VScrollBar": "resourcepublish/eui_skins/VScrollBarSkin.exml",
 		"eui.VSlider": "resourcepublish/eui_skins/VSliderSkin.exml",
 		"eui.ItemRenderer": "resourcepublish/eui_skins/ItemRendererSkin.exml",
-		"GameMain": "resourcepublish/eui_skins/GameMain.exml"
+		"GameMain": "resourcepublish/eui_skins/GameMain.exml",
+		"BattlePanel": "resource/eui_skins/BattlePanel.exml",
+		"BattleView": "resource/eui_skins/BattleView.exml"
 	},
 	"autoGenerateExmlsList": true,
 	"exmls": [
+		"resource/eui_skins/BattleView.exml",
 		"resource/eui_skins/ButtonSkin.exml",
 		"resource/eui_skins/CheckBoxSkin.exml",
 		"resource/eui_skins/GameMain.exml",
 		"resource/eui_skins/HScrollBarSkin.exml",
 		"resource/eui_skins/HSliderSkin.exml",
 		"resource/eui_skins/ItemRendererSkin.exml",
+		"resource/eui_skins/NewFile.exml",
 		"resource/eui_skins/PanelSkin.exml",
 		"resource/eui_skins/ProgressBarSkin.exml",
 		"resource/eui_skins/RadioButtonSkin.exml",
