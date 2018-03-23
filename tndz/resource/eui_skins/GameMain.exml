@@ -4,6 +4,15 @@
 		<e:Group id="header" percentWidth="100%" percentHeight="15%" >
 			<e:Image id="headrbg" source="19_png" percentWidth="100%" scale9Grid="16,15,6,7" height="100%"/>
 			<e:Image id="userhead" verticalCenter="0" source="200_png" left="20"/>
+			<e:Group width="189" height="34" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" right="-16" verticalCenter="-4.5">
+				<e:Image width="20" height="20" x="570" y="366" scaleX="1" scaleY="1" source="47_png"/>
+				<e:Label text="111" x="360" y="227" scaleX="1" scaleY="1" size="21" borderColor="0x000000" textColor="0x22b4f9"/>
+				<e:Image width="20" height="20" x="434" y="281" scaleX="1" scaleY="1" source="26_png"/>
+				<e:Label text="20" x="499" y="310" scaleX="1" scaleY="1" size="21" textColor="0x0226ff"/>
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+			</e:Group>
 		</e:Group>
 		
 			<e:Group id="btn_container" scaleX="1" scaleY="1" width="156" verticalCenter="0" horizontalCenter="0">

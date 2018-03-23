@@ -56,6 +56,27 @@ var DebugPlatform = (function () {
     return DebugPlatform;
 }());
 __reflect(DebugPlatform.prototype, "DebugPlatform", ["Platform"]);
+var WXPlatform = (function () {
+    function WXPlatform() {
+    }
+    WXPlatform.prototype.getUserInfo = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                return [2 /*return*/];
+            });
+        });
+    };
+    WXPlatform.prototype.login = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                return [2 /*return*/];
+            });
+        });
+    };
+    return WXPlatform;
+}());
+__reflect(WXPlatform.prototype, "WXPlatform", ["Platform"]);
+console.log("!window.platform");
 if (!window.platform) {
     window.platform = new DebugPlatform();
 }

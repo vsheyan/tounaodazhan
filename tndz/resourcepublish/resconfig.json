@@ -2,8 +2,8 @@
 	"addCrc":true,
 	"cleanPublishPath":true,
 	"packGroups":[{
-			"gap":1,
-			"name":"merge",
+			"gap":4,
+			"name":"marge",
 			"res":[
 				{
 					"compress":false,
@@ -157,7 +157,7 @@
 			"sort":0
 		}],
 	"publishCopyAll":true,
-	"publishPath":"F:/wxAppForZW/BrainBattle/tndz/resourcepublish/",
-	"sourcePath":"F:/wxAppForZW/BrainBattle/tndz/resource/",
+	"publishPath":"N:/mygame/tndz/resourcepublish/",
+	"sourcePath":"N:/mygame/tndz/resource/",
 	"unPackGroup":[]
 }

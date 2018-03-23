@@ -118,6 +118,8 @@ var Main = (function (_super) {
                         return [4 /*yield*/, platform.getUserInfo()];
                     case 4:
                         userInfo = _a.sent();
+                        //刷新玩家信息
+                        PlayerManager.getInstance().updatePlatformUser(userInfo);
                         console.log(userInfo);
                         return [2 /*return*/];
                 }

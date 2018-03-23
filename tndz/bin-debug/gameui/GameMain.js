@@ -17,9 +17,17 @@ var GameMain = (function (_super) {
         return _this;
     }
     GameMain.prototype.uiCompHandler = function () {
+        //设置头像和玩家信息
+        this.updatePlayerView(PlayerManager.getInstance().getUserInfo());
     };
     GameMain.prototype.partAdded = function (partName, instance) {
         _super.prototype.partAdded.call(this, partName, instance);
+    };
+    /**
+     * 更新玩家头像积分金币....
+     */
+    GameMain.prototype.updatePlayerView = function (data) {
+        this.userhead.source = "200_png";
     };
     GameMain.prototype.childrenCreated = function () {
         _super.prototype.childrenCreated.call(this);
