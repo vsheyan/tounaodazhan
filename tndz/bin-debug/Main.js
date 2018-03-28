@@ -172,8 +172,8 @@ var Main = (function (_super) {
      * Create scene interface
      */
     Main.prototype.createGameScene = function () {
-        this.addChild(new GameMain());
-        //Scene.showScene(new GameMain(),false);
+        //this.addChild(new GameMain());
+        Scene.showScene(new GameMain(), false);
     };
     /**
      * 创建场景界面

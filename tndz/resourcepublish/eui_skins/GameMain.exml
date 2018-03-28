@@ -2,9 +2,7 @@
 <e:Skin class="GameMainSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
 	<e:Image percentWidth="100%" percentHeight="100%" source="20_png" scale9Grid="16,15,9,7" width="100%" height="100%"/>
 	<e:Group percentHeight="100%" percentWidth="100%" x="0" width="100%" height="100%">
-		<ns1:HeaderBar width="100%" height="250" x="303" y="176"/>
-		
-		
+		<ns1:HeaderBar id="h_userhead" width="100%" height="250" x="303" y="176"/>
 			<e:Group id="btn_container" scaleX="1" scaleY="1" percentWidth="100%" percentHeight="100%" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" width="100%" height="100%">
 			<e:Button id="btn_rankbattle" horizontalCenter="-40.5" verticalCenter="-123" x="-274" y="-46" scaleX="1" scaleY="1">
 				<e:skinName>

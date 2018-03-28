@@ -16,6 +16,9 @@ var HeaderBar = (function (_super) {
     HeaderBar.prototype.partAdded = function (partName, instance) {
         _super.prototype.partAdded.call(this, partName, instance);
     };
+    HeaderBar.prototype.setUserHeader = function (source) {
+        this.userhead.source = source;
+    };
     HeaderBar.prototype.childrenCreated = function () {
         _super.prototype.childrenCreated.call(this);
     };

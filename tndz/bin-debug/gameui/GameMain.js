@@ -27,7 +27,8 @@ var GameMain = (function (_super) {
      * 更新玩家头像积分金币....
      */
     GameMain.prototype.updatePlayerView = function (data) {
-        this.userhead.source = "200_png";
+        egret.log("h_userhead", this.h_userhead);
+        this.h_userhead.setUserHeader("200_png");
     };
     GameMain.prototype.childrenCreated = function () {
         _super.prototype.childrenCreated.call(this);

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <e:Skin class="RankViewSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
 	<w:Config id="1626bfb73b9" ></w:Config>
-	<e:Image id="bg" percentWidth="NaN" percentHeight="NaN" x="0" y="0" source="20_png" width="100%" height="100%"/>
+	<e:Image id="bg" percentWidth="100%" percentHeight="100%" x="0" y="0" source="20_png" width="100%" height="100%"/>
 	<ns1:HeaderBar id="headerabr" width="100%" height="200" x="0" y="0"/>
-	<e:Image id="listbg" percentWidth="NaN" percentHeight="NaN" scale9Grid="16,15,6,7" source="19_png" y="246" width="460" height="840" anchorOffsetY="0" x="89" anchorOffsetX="0"/>
+	<e:Image id="listbg" percentWidth="100%" percentHeight="100%" scale9Grid="16,15,6,7" source="19_png" y="246" width="460" height="840" anchorOffsetY="0" x="89" anchorOffsetX="0"/>
 	<e:List id="baglist" width="460" height="840" x="89" y="246" anchorOffsetX="0" anchorOffsetY="0"/>
 </e:Skin>

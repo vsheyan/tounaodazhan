@@ -4,7 +4,7 @@ class GameMain extends eui.Component implements  eui.UIComponent {
 		this.addEventListener( eui.UIEvent.COMPLETE, this.uiCompHandler, this );
 		this.skinName = "resourcepublish/eui_skins/GameMain.exml";
 	}
-	private userhead:eui.Image;
+	private h_userhead:HeaderBar;
 	private uiCompHandler() :void {
 		//设置头像和玩家信息
 		this.updatePlayerView(PlayerManager.getInstance().getUserInfo());
@@ -18,7 +18,8 @@ class GameMain extends eui.Component implements  eui.UIComponent {
 	 * 更新玩家头像积分金币....
 	 */
 	private updatePlayerView(data:any):void{
-		this.userhead.source = "200_png";
+		egret.log("h_userhead",this.h_userhead);
+		this.h_userhead.setUserHeader("200_png");
 	}
 
 	protected childrenCreated():void

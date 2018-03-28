@@ -1,6 +1,6 @@
 {
 	"addCrc":true,
-	"cleanPublishPath":false,
+	"cleanPublishPath":true,
 	"packGroups":[{
 			"gap":4,
 			"name":"merge",
@@ -160,8 +160,8 @@
 			],
 			"sort":0
 		}],
-	"publishCopyAll":false,
-	"publishPath":"N:/workspace/tndz/resourcepublish/",
-	"sourcePath":"N:/workspace/tndz/resource/",
+	"publishCopyAll":true,
+	"publishPath":"F:/wxAppForZW/BrainBattle/tndz/resourcepublish/",
+	"sourcePath":"F:/wxAppForZW/BrainBattle/tndz/resource/",
 	"unPackGroup":[]
 }
