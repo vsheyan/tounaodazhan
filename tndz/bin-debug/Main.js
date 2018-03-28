@@ -92,6 +92,7 @@ var Main = (function (_super) {
         var assetAdapter = new AssetAdapter();
         egret.registerImplementation("eui.IAssetAdapter", assetAdapter);
         egret.registerImplementation("eui.IThemeAdapter", new ThemeAdapter());
+        Scene.setStage(this.stage);
         this.runGame().catch(function (e) {
             console.log(e);
         });
@@ -172,6 +173,7 @@ var Main = (function (_super) {
      */
     Main.prototype.createGameScene = function () {
         this.addChild(new GameMain());
+        //Scene.showScene(new GameMain(),false);
     };
     /**
      * 创建场景界面

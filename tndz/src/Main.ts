@@ -51,14 +51,14 @@ class Main extends eui.UILayer {
         egret.registerImplementation("eui.IAssetAdapter", assetAdapter);
         egret.registerImplementation("eui.IThemeAdapter", new ThemeAdapter());
 
-
+        Scene.setStage(this.stage);
         this.runGame().catch(e => {
             console.log(e);
         })
     }
 
     private async runGame() {
-        await this.loadResource()
+        await this.loadResource();
         this.createGameScene();
         const result = await RES.getResAsync("description_json")
         //this.startAnimation(result);
@@ -101,7 +101,9 @@ class Main extends eui.UILayer {
      * Create scene interface
      */
     protected createGameScene(): void {
-        this.addChild(new GameMain());
+        //this.addChild(new GameMain());
+        Scene.showScene(new GameMain(),false);
+        
     }
     /**
      * 创建场景界面
@@ -185,6 +187,7 @@ class Main extends eui.UILayer {
         let result = new egret.Bitmap();
         let texture: egret.Texture = RES.getRes(name);
         result.texture = texture;
+        
         return result;
     }
     /**
