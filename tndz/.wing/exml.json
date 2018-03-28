@@ -29,5 +29,15 @@
         "path": "..\\resource\\eui_skins\\BattleView.ts",
         "class": "BattleView",
         "parentPath": ""
+    },
+    "1626bebb34d": {
+        "path": "gameui\\BagView.ts",
+        "class": "BagView",
+        "parentPath": ""
+    },
+    "1626bed7b55": {
+        "path": "gameui\\HeaderBar.ts",
+        "class": "HeaderBar",
+        "parentPath": ""
     }
 }
