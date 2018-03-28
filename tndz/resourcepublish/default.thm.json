@@ -14,11 +14,11 @@
 		"eui.VSlider": "resourcepublish/eui_skins/VSliderSkin.exml",
 		"eui.ItemRenderer": "resourcepublish/eui_skins/ItemRendererSkin.exml",
 		"GameMain": "resourcepublish/eui_skins/GameMain.exml",
-		"BattlePanel": "resource/eui_skins/BattlePanel.exml",
-		"BattleView": "resource/eui_skins/BattleView.exml",
-		"BagView": "resource/eui_skins/BagView.exml",
-		"HeaderBar": "resource/eui_skins/HeaderBar.exml",
-		"RankView": "resource/eui_skins/RankView.exml"
+		"BattlePanel": "resourcepublish/eui_skins/BattlePanel.exml",
+		"BattleView": "resourcepublish/eui_skins/BattleView.exml",
+		"BagView": "resourcepublish/eui_skins/BagView.exml",
+		"HeaderBar": "resourcepublish/eui_skins/HeaderBar.exml",
+		"RankView": "resourcepublish/eui_skins/RankView.exml"
 	},
 	"autoGenerateExmlsList": true,
 	"exmls": [
@@ -42,5 +42,5 @@
 		"resource/eui_skins/VScrollBarSkin.exml",
 		"resource/eui_skins/VSliderSkin.exml"
 	],
-	"path": "resource/default.thm.json"
+	"path": "resourcepublish/default.thm.json"
 }

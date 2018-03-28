@@ -3,7 +3,7 @@
 	<w:Config id="1626bed7b55" ></w:Config>
 	<e:Group id="header" percentWidth="100%" percentHeight="100%" height="100%"  width="100%">
 			<e:Image id="headrbg" percentWidth="100%" percentHeight="100%"  scale9Grid="16,15,6,7" source="19_png" y="1" width="100%" height="100%" anchorOffsetY="0"/>
-			<e:Image id="userhead" verticalCenter="1.5" source="200_png" left="15"/>
+			<e:Image id="image_userhead" verticalCenter="1.5" source="200_png" left="15"/>
 			<e:Group width="189" height="34" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" right="20" verticalCenter="0">
 				<e:Image width="20" height="20" x="570" y="366" scaleX="1" scaleY="1" source="47_png"/>
 				<e:Label text="111" x="360" y="227" scaleX="1" scaleY="1" size="21" borderColor="0x000000" textColor="0x22b4f9"/>

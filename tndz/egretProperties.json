@@ -7,10 +7,10 @@
 	},
 	"eui": {
 		"exmlRoot": [
-			"resource/eui_skins"
+			"resourcepublish/eui_skins"
 		],
 		"themes": [
-			"resource/default.thm.json"
+			"resourcepublish/default.thm.json"
 		],
 		"exmlPublishPolicy": "commonjs"
 	},

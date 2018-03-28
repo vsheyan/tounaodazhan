@@ -2,14 +2,18 @@
 	"resourcePlugin": {
 		"configs": [
 			{
-				"configPath": "resource/default.res.json",
-				"relativePath": "resource/"
+				"configPath": "resourcepublish/default.res.json",
+				"relativePath": "resourcepublish/"
 			},
 			{
 				"configPath": "resourcepublish/default.res.json",
+				"relativePath": "resourcepublish/"
+			},
+			{
+				"configPath": "resource/default.res.json",
 				"relativePath": "resource/"
 			}
 		]
 	},
-	"theme": "resource/default.thm.json"
+	"theme": "resourcepublish/default.thm.json"
 }
