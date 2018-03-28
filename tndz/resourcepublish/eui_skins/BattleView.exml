@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="BattleViewSkin" width="400" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+<e:Skin class="BattleViewSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
 	<w:Config id="1625382843e" ></w:Config>
 	<e:Image percentWidth="100%" percentHeight="100%" x="0" y="0" source="20_png" width="100%" height="100%"/>
 	<e:Group percentWidth="100%" percentHeight="100%" />
+	<e:Image source="153_png" x="166.66" y="154.33"/>
+	<e:Image source="153_png" x="420" y="154.33"/>
+	<e:ProgressBar width="153.33" height="21.33" x="127.5" y="281.67" anchorOffsetX="0" anchorOffsetY="0" value="50"/>
+	<e:ProgressBar width="153.33" height="21.33" x="380.84" y="281.67" anchorOffsetX="0" anchorOffsetY="0" value="20"/>
+	<e:Label text="Label" x="137.82" y="230.33" anchorOffsetX="0" width="132.67" textAlign="center"/>
+	<e:Label text="Label" x="372.5" y="230.33" anchorOffsetX="0" width="170" textAlign="center"/>
+	<e:Label text="A:xxxx" x="195" y="431.66" textAlign="left" verticalAlign="justify" size="49" width="300"/>
+	<e:Label text="B:xxxxx" x="195" y="510" textAlign="left" verticalAlign="justify" size="49" width="300"/>
+	<e:Label text="C:------" x="195" y="588.33" textAlign="left" verticalAlign="justify" size="49" width="300"/>
+	<e:Label text="D:?????" x="195.49" y="666.33" textAlign="left" verticalAlign="justify" size="49" width="300"/>
+	<e:Label text="挑战赛" x="270.49" y="44.33" textColor="0x053aaf" textAlign="center" bold="true" size="42"/>
 </e:Skin>

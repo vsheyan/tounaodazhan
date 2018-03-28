@@ -1,3 +1,5 @@
+declare class BagViewSkin extends eui.Skin{
+}
 declare class BattleViewSkin extends eui.Skin{
 }
 declare module skins{
@@ -9,6 +11,8 @@ declare module skins{
 	}
 }
 declare class GameMainSkin extends eui.Skin{
+}
+declare class HeaderBarSkin extends eui.Skin{
 }
 declare module skins{
 	class HScrollBarSkin extends eui.Skin{
@@ -35,6 +39,8 @@ declare module skins{
 declare module skins{
 	class RadioButtonSkin extends eui.Skin{
 	}
+}
+declare class RankViewSkin extends eui.Skin{
 }
 declare module skins{
 	class ScrollerSkin extends eui.Skin{

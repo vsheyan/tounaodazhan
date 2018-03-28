@@ -39,5 +39,10 @@
         "path": "gameui\\HeaderBar.ts",
         "class": "HeaderBar",
         "parentPath": ""
+    },
+    "1626bfb73b9": {
+        "path": "gameui\\RankView.ts",
+        "class": "RankView",
+        "parentPath": ""
     }
 }

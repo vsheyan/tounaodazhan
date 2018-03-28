@@ -3,7 +3,7 @@
 	"cleanPublishPath":true,
 	"packGroups":[{
 			"gap":4,
-			"name":"marge",
+			"name":"merge",
 			"res":[
 				{
 					"compress":false,
@@ -98,11 +98,11 @@
 					"key":"track_sb_png"
 				},
 				{
-					"compress":true,
+					"compress":false,
 					"key":"19_png"
 				},
 				{
-					"compress":true,
+					"compress":false,
 					"key":"58_png"
 				},
 				{
@@ -154,14 +154,14 @@
 					"key":"130_png"
 				},
 				{
-					"compress":true,
+					"compress":false,
 					"key":"20_png"
 				}
 			],
 			"sort":0
 		}],
 	"publishCopyAll":true,
-	"publishPath":"F:/wxAppForZW/BrainBattle/tndz/resourcepublish/",
-	"sourcePath":"F:/wxAppForZW/BrainBattle/tndz/resource/",
+	"publishPath":"N:/workspace/tndz/resourcepublish/",
+	"sourcePath":"N:/workspace/tndz/resource/",
 	"unPackGroup":[]
 }
